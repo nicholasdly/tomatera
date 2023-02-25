@@ -1,39 +1,38 @@
-# tomatera.dev
+# create-svelte
 
-## About the Project
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-<div align='center'>
-  <img src='screenshots/dark.png' width=400 />
-  <img src='screenshots/light.png' width=400 />
-  </br></br>
-</div
+## Creating a project
 
-What started as my first individual web development project quickly grew to become a mini passion project of mine. Made by a computer science student who actively utilizes the [pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique), Tomatera is a functional yet minimal pomodoro timer to help anyone balance their time and improve their productivity.
+If you're seeing this, you've probably already done this step. Congrats!
 
-- Framework: [SvelteKit](https://kit.svelte.dev/)
-- Database: [Supabase](https://supabase.com/)
-- Deployment: [Vercel](https://vercel.com/)
-- Styling: [Tailwind CSS](https://tailwindcss.com/)
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-</br>
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-TODO:
+## Developing
 
-- [x] Add indicator of which timer (work or break) is active
-- [x] Redesign spacing of page elements (timer should be the only thing on the screen unless you scroll down)
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-## Contributing
+```bash
+npm run dev
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+## Building
 
-1. Fork this repo.
-2. Create your branch with `git checkout -b branchname`.
-3. Commit your changes with `git commit -m "Your message here!"`.
-4. Push to the branch with `git push origin branchname`.
-5. Open a pull request!
+To create a production version of your app:
 
-## License
+```bash
+npm run build
+```
 
-Distributed under the MIT License. See `LICENSE` for more information.
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
