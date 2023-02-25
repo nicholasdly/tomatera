@@ -1,5 +1,5 @@
 <script>
-    let work_duration = 1;  // minutes
+    let work_duration = 25;  // minutes
     let break_duration = 5;  // minutes
 
     let paused = true;
