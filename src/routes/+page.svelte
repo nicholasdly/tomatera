@@ -39,11 +39,11 @@
                 How do I use Tomatera?
             </h2>
             <ol>
-                <li>1. Add tasks to the to-do list.</li>
-                <li>2. Adjust the timer intervals to your liking.</li>
-                <li>3. Start the timer and focus on your tasks during the work interval.</li>
-                <li>4. When the alarm rings, take a break during the break interval.</li>
-                <li>5. When the alarm rings again, focus again and repeat until all your tasks are done!</li>
+                <!-- <li>1. Add tasks to the to-do list.</li> -->
+                <li>1. Adjust the timer intervals to your liking.</li>
+                <li>2. Start the timer and focus on your tasks during the work interval.</li>
+                <li>3. When the alarm rings, take a break during the break interval.</li>
+                <li>4. When the alarm rings again, focus again and repeat until all your tasks are done!</li>
             </ol>
         </div>
 
